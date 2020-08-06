@@ -1,0 +1,55 @@
+body {
+    margin : 10px;
+    background-color: green;
+    width: 100%;
+    height: 100%;
+}
+
+.carta{
+    width: 200px;
+    height: 300px;
+    font-size:48px;
+    background-color:white;
+    /* para centrar */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* redondito */
+    border-radius: 25px
+   
+}
+
+.sup{
+    height: 65px;
+}
+
+.sup p{
+    text-align: left;
+    width: 100%;
+     margin: 0;
+ }
+.med{
+    text-align: center;
+    width: 100%;
+    height: 170px;
+}
+
+/* las etiquetas de texto tienen un margin por defecto */
+.med p{
+margin: 0px;
+
+}
+
+.num{
+padding-top: 50px;
+
+}
+
+.inf{
+    height: 65px;
+}
+.inf p{
+    text-align: right;
+    width: 100%;
+    margin: 0;
+    }
